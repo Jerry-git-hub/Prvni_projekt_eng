@@ -103,8 +103,13 @@ while mode:
 
         print('Součet všech čísel v textu:', soucet_cisel)
 
+        jmeno = input('Prosím, zadejte své uživatelské jméno:')
+
+        heslo = input('Prosím, zadejte své heslo:')
     else:
         print('Zadali jste špatné heslo. Přístup odepřen')
-        mode = True
-        break
+        jmeno = input('Prosím, zadejte své uživatelské jméno:')
+
+        heslo = input('Prosím, zadejte své heslo:')
+
 
